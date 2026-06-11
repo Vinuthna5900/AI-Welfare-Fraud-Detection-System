@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# AI-Powered Welfare Fraud Detection System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a full-stack machine learning application designed to detect potentially fraudulent welfare applications. The system uses a Random Forest Classifier to analyze applicant information and predict fraud risk while providing confidence scores and analytics.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+* Welfare fraud prediction
+* Confidence score generation
+* Fraud alert detection
+* Prediction history tracking
+* Analytics dashboard
+* REST API integration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
 
-### `npm test`
+* React.js
+* Axios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+* Flask
+* Flask-CORS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Machine Learning
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Scikit-learn
+* Random Forest Classifier
+* Pandas
+* NumPy
+* Joblib
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Database
 
-### `npm run eject`
+* SQLite
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dataset
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Synthetic Welfare Fraud Detection Dataset
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Approximately 5,000 records
+* 13 features including applicant demographics, income details, benefits information, and fraud labels
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Model Performance
 
-## Learn More
+* Accuracy: 100%
+* Precision: 1.00
+* Recall: 1.00
+* F1 Score: 1.00
+* ROC-AUC: 1.00
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+AI-Welfare-Fraud-Detection-System/
+├── backend/
+├── frontend/
+├── README.md
+└── .gitignore
 
-### Code Splitting
+## My Contribution
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Developed the backend and machine learning pipeline, including data preprocessing, feature engineering, Random Forest model training, evaluation, model deployment using Joblib, and Flask REST APIs for fraud prediction.
 
-### Analyzing the Bundle Size
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Aadhaar verification integration
+* Explainable AI (XAI)
+* Cloud deployment
+* Real-time fraud monitoring
+* Advanced analytics dashboard
